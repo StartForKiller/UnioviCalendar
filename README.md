@@ -5,4 +5,4 @@ Todo lo relacionado con la exportación de datos al CSV y la obtención de los m
 Echarle un vistazo a su proyecto en su [GitHub](https://github.com/Bimo99B9/autoUniCalendar)
 
 El ha sido el que ha creado la herramienta, yo simplemente me he limitado a pasarla a otro lenguaje y a adaptarla a Chrome para facilitar su uso.
-Para el que entre por GitHub, puedes decargar la extensión aquí
+Para el que entre por GitHub, puedes decargar la extensión [aquí](https://chrome.google.com/webstore/detail/uniovi-calendar-downloade/ejfgceahhjagbmhoelckbhdggjnlbbci)
