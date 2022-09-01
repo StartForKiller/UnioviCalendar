@@ -6,7 +6,7 @@
 
     "content_scripts": [
         {
-            "matches": ["https://sies.uniovi.es/serviciosacademicos/web/expedientes/calendario.xhtml"],
+            "matches": ["https://sies.uniovi.es/serviciosacademicos/web/expedientes/calendario.faces"],
             "js": ["src/calendar.js"]
         }
     ],
