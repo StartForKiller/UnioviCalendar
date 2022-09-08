@@ -35,7 +35,7 @@ async function doTheWork() {
 
     //Collect all the in-document cookies
     var source = 'j_id' + (request.split('<div id="j_id')[1]).split('"')[0];
-    var viewstate = (request.split('name="javax.faces.ViewState" id="javax.faces.ViewState" value="')[1]).split('"')[0];
+    var viewstate = (request.split(':javax.faces.ViewState:1" value="')[1]).split('"')[0];
     var submit = (request.split('" method="post" action="/serviciosacademicos/web/expedientes/calendario.xhtml"')[0]).split('j_id');
     submit = 'j_id' + submit[submit.length - 1];
     viewstate = viewstate.replaceAll("+", "%2B");
