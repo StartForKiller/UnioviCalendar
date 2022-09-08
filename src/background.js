@@ -22,7 +22,7 @@ const sendRequests = () => {
 
 //Send a second request to extract the array of events
 const sendRequestsTwo = (source, view, submit) => {
-    var body_payload= `javax.faces.partial.ajax=true&javax.faces.source=${source}&javax.faces.partial.execute=${source}&javax.faces.partial.render=${source}&${source}=${source}&${source}_start=1630886400000&${source}_end=1652054400000&${submit}_SUBMIT=1&javax.faces.ViewState=${view}`;
+    var body_payload= `javax.faces.partial.ajax=true&javax.faces.source=${source}&javax.faces.partial.execute=${source}&javax.faces.partial.render=${source}&${source}=${source}&${source}_start=${Date.now()}&${source}_end=${Date.now() + 21168000000}&${submit}_SUBMIT=1&javax.faces.ViewState=${view}`;
     return jQuery.post({
         url: 'https://sies.uniovi.es/serviciosacademicos/web/expedientes/calendario.xhtml',
         data: body_payload,
