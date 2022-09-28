@@ -17,7 +17,6 @@
         ]
     },
     "permissions": [
-        "storage",
         "cookies",
         "background",
         "https://sies.uniovi.es/*"
