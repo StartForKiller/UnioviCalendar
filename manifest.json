@@ -14,8 +14,7 @@
         "service_worker": "src/background.js"
     },
     "permissions": [
-        "cookies",
-        "background"
+        "cookies"
     ],
     "host_permissions": [
         "https://sies.uniovi.es/*"
