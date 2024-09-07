@@ -1,8 +1,8 @@
 {
     "name": "Uniovi Calendar Downloader",
     "description": "Descarga los horarios de la Universidad de Oviedo desde la página web del SIES",
-    "version": "1.1.3",
-    "manifest_version": 2,
+    "version": "1.1.4",
+    "manifest_version": 3,
 
     "content_scripts": [
         {
@@ -11,14 +11,13 @@
         }
     ],
     "background": {
-        "scripts": [
-            "src/jquery-3.6.0.min.js",
-            "src/background.js"
-        ]
+        "service_worker": "src/background.js"
     },
     "permissions": [
         "cookies",
-        "background",
+        "background"
+    ],
+    "host_permissions": [
         "https://sies.uniovi.es/*"
     ]
 }
